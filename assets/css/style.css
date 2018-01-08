@@ -10,6 +10,10 @@ ul {
 	font-family: arial, Helvetica Neue, helvetica, sans-serif;
 }
 
+a:hover {
+	text-decoration: none;
+}
+
 .panel-heading {
 	width:100%;
 	text-align: center;
@@ -71,7 +75,6 @@ li {
 .navbar-default {
 	padding-bottom:1%;
 }
-
 
 .content-box {
 	background-color: black#ffffff;
@@ -194,4 +197,20 @@ input {
 	border-style: solid;
 	padding:35px;
 	width:100%;
+}
+
+.btn {
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.menuItem {
+    transition: all 0.3s ease-in-out;
+}
+
+.menuItem:hover {
+    transform: scale(1.1);
 }
