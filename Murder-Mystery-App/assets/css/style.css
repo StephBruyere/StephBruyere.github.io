@@ -3,7 +3,7 @@ body {
     background-repeat: repeat;
 }
 
-Modal .mpopup-content {
+.mpopup-content {
     background-image: url("images/startPaperResized.png");
     background-repeat: no-repeat;
     width: 600px;
