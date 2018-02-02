@@ -3,6 +3,16 @@ body {
     background-repeat: repeat;
 }
 
+Modal .mpopup-content {
+    background-image: url("images/startPaperResized.png");
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 445px;
+    left: 50%;
+    top: 50%;
+    margin-left: -25%;
+    margin-top: 150px; }
+
 br {
     background-color: black;
 }
